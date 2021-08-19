@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+}
+
+.box {
+    background-color: gray;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.box > p {
+    width: 20%;
+    text-align: center;
+    margin-left: 80%;
+    margin-top: 0;
+    border:1px solid black;
+}
+
+
+
+
+
+
+#ch {
+    background-color: salmon;
+    
+}
+
+#be {
+    background-color: rgb(117, 18, 18);
+    color: white; 
+}
+#sh {
+    background-color : yellow;
+}
+.padding {
+    padding-left: 10px;
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .box {
+        float:left;
+        margin-right: 5%;
+        margin-left: 5%;
+        border: 1px solid black;
+    }
+    .box1, .box2 {
+        width: 40%;
+    }
+    .box3 {
+        margin-top: 30px;
+    }
+}
+
+@media(min-width:992px) {
+    .box {
+        float:left;
+        margin-right: 2%;
+        margin-left: 2%;
+        border: 1px solid black;
+        width: 29%;
+    }
+}
+
+@media(max-width: 767px) {
+    .box {
+        margin: 20px;
+    }
+}
